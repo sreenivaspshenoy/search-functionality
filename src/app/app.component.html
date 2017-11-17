@@ -1,0 +1,6 @@
+<div class="container">
+  <div class="row">
+    <app-search (searchKeyEntered) = "filterData($event)"></app-search>
+    <app-display [countryNames] = "filteredCountryList"></app-display>
+  </div>
+</div>
